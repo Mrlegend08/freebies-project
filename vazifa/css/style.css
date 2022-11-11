@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+.container {
+  padding: 77px 60px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.container-start {
+  background-color: #ffd500;
+  width: 277px;
+  padding: 80px 78px;
+  border-radius: 21.25px 0px 0px 21.25px;
+}
+
+.container-start-img {
+  margin-bottom: 57.8px;
+}
+
+.container-start-title {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #383838;
+}
+
+.container-start-desc {
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #383838;
+  margin-top: 0;
+  margin-bottom: 38px;
+}
+
+.container-start-link-btn {
+  background-color: #383838;
+  padding: 9.01px 13.39px 7px 13.36px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 50%;
+}
+
+.container-start-link-img {
+  padding: 0;
+  margin: 0;
+  width: 8.12px;
+  height: 14.48px;
+}
+
+.container-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  width: 403px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-right: 74px;
+  padding-left: 71px;
+}
+
+.container-end-form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-evenly;
+}
+
+.conatiner-end-name-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 260px;
+  margin-bottom: 10px;
+}
+
+.name-label {
+  font-size: 7.4089px;
+  line-height: 15px;
+  display: flex;
+  align-items: flex-end;
+  width: 40px;
+  color: #373d40;
+}
+
+input {
+  width: 190px;
+  padding: 9px 10px;
+  margin-left: 20px;
+  background-color: rgba(245, 248, 249, 0.3);
+  border: 0.586985px solid #cad7dd;
+  border-radius: 2.64604px;
+}
+
+.container-end-name-gender {
+  font-size: 7.4089px;
+  line-height: 9px;
+  width: 40px;
+  display: flex;
+  align-items: flex-end;
+  color: #373d40;
+}
+
+.container-end-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 260px;
+  margin-top: 22px;
+  list-style: none;
+  padding-left: 0;
+  gap: 15px;
+}
+
+.container-end-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 45px;
+}
+.container-end-name-membership {
+  font-size: 7.4089px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #373d40;
+  width: 40px;
+  margin-right: 20px;
+}
+
+.container-end-img-radio {
+  width: 26px;
+  height: 26px;
+  padding: 3px 7px 9px 6px;
+  background-color: #c7c7c7;
+  border-radius: 50%;
+}
+
+.container-end-desc {
+  font-size: 7.4089px;
+  line-height: 9px;
+  display: flex;
+  align-items: flex-end;
+  color: #373d40;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10.59px;
+}
+
+.button-canel {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  width: 79px;
+  padding: 8px 22px;
+  font-size: 7.4089px;
+  line-height: 9px;
+  color: #373d40;
+  background-image: #f5f8f9;
+  border: none;
+  border-radius: 2.64604px;
+}
+
+.button-save {
+  text-align: center;
+  font-size: 7.4089px;
+  line-height: 9px;
+  display: flex;
+  width: 79px;
+  align-items: flex-end;
+  padding: 8px 22px;
+  color: #ffffff;
+  background-color: #60e6c5;
+  border: none;
+  border-radius: 2.64604px;
+}
